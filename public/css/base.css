@@ -19,8 +19,8 @@ main {
 	display: block;
 }
 
-/* Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari. */
+/* 	font size and margin on `h1` elements within `section`
+ */
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
@@ -30,8 +30,6 @@ h1 {
  * ## grouping
  * ------------------------------------------------------------------- */
 
-/* 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE. */
 hr {
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;  /* 1 */
@@ -39,18 +37,17 @@ hr {
 	overflow: visible;  /* 2 */
 }
 
-/* 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers. */
 pre {
 	font-family: monospace, monospace;  /* 1 */
 	font-size: 1em;  /* 2 */
 }
 
 /* ------------------------------------------------------------------- 
- * ## text-level semantics
- * ------------------------------------------------------------------- */
+ * ## text
+ */
 
-/* Remove the gray background on active links in IE 10. */
+/* Remove the gray background on active links.
+*/
 a {
 	background-color: transparent;
 }
@@ -62,7 +59,7 @@ abbr[title] {
 	text-decoration: underline dotted;  /* 2 */
 }
 
-/* Add the correct font weight in Chrome, Edge, and Safari.
+/* Add the correct font weight.
 */
 b,
 strong {
@@ -97,7 +94,7 @@ sup {
 	top: -0.5em;
 }
 
-/* Remove the border on images inside links in IE 10. */
+/* Remove the border on images inside links*/
 img {
 	border-style: none;
 }
