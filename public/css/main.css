@@ -1032,7 +1032,6 @@ input::-moz-focus-inner {
   height: 100vh;
   min-height: 82rem;
   overflow: hidden;
-  background-image: url("/images/hero-bg-3000.jpg");
   background-color: transparent;
   position: relative;
 }
@@ -1041,7 +1040,6 @@ input::-moz-focus-inner {
   display: block;
   content: "";
   position: absolute;
-  background-image: url("/images/hero-bg-3000.jpg");
   top: 0;
   left: 0;
   width: 100%;
