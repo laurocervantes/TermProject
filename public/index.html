@@ -1,17 +1,436 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
+<html class="no-js" lang="en">
+<head>
+    <!--- basic page -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <title>MET BU CS 601 TERM PROJECT</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body id="top">
+<!-- header  -->
+<header class="s-header">
+    <div class="header-logo">
+        <a href="index.html">
+            <img src="images/summer.jpg" alt="Homepage">
+        </a>
+    </div>
+
+    <div class="header-content">
+        <nav class="work-positionz header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="#firstSection" title="Intro">Home</a></li>
+                <li><a href="#biography" title="Bio">Biography</a></li>
+                <li><a href="#skillz" title="Skills">Skills</a></li>
+                <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+                <li><a href="contact.html" title="Contact Me">Contact Me</a></li>
+            </ul>
+        </nav> <!-- end header-nav-wrap -->
+    </div> <!-- end header-content -->
+</header>
+
+
+<!-- First section -->
+<section id="firstSection" class="s-hero target-section" data-position-y=center>
+    <div class="work-positionz hero-content">
+
+        <div class="column large-full">
+            <h1>
+                Hey, I'm Lauro! <br>
+                I'm a happy Android Developer <br>
+                & current student of MS in Software
+                Development at Boston University. <br>
+            </h1>
+
+            <ul class="first-social">
+                <li>
+                    <a href="https://github.com/laurocervantes" title="">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/laurocervantes" title="">Instagram</a>
+                </li>
+            </ul> <!-- end -->
+
+        </div>
+
+    </div> <!-- end hero-content -->
+
+    <div class="scroller-scroll">
+        <a href="#biography" class="scroll-link smoothscroll">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+        </a>
+    </div> <!-- end hero-scroll -->
+
+</section> <!-- end s-hero -->
+
+
+<!-- Biography  -->
+<section id="biography" class="s-about target-section">
+
+    <div class="s-about__section s-about__section--profile">
+
+        <div class="right-vert-line"></div>
+
+        <div class="work-positionz">
+            <div class="column large-6 medium-8 tab-full">
+
+                <div class="section-intro" data-num="01" data-aos="fade-up">
+                    <h3 class="subhead">BIOGRAPHY</h3>
+                    <h1 class="display-1">I Like to Push Myself into the Limits.</h1>
+                </div>
+
+                <div class="profile-pic" data-aos="fade-up">
+                    <img src="images/me.jpg" alt="" id="profilePic">
+                </div>
+
+
+                <h3 data-aos="fade-up">Personal Description</h3>
+
+                <p data-aos="fade-up">
+                    I'm a 32 year old professional that likes to give to give the best of himself
+                    in his life and career. I'm currently happy with life and I'm overall a nice
+                    person to be around with. I am passionate about coding and Mobile devices. I decided
+                    to take Web Development at MET BU because I believe it will expand my horizons in my
+                    career, even though I'm currently titled as an Android Engineer. Since the Web Browser
+                    and programming in general is in constant evolution.
+                </p>
+            </div>
+        </div>
+
+    </div> <!-- end s-about__section--profile -->
+
+    <div class="s-about__section">
+
+        <div class="work-positionz">
+            <div class="column">
+                <h3 data-aos="fade-up">Work History</h3>
+            </div>
+        </div>
+
+        <div class="work-positionz block-large-1-2 block-900-full work-positions">
+
+            <div class="column" data-aos="fade-up">
+                <div class="position">
+                    <div class="position__header">
+                        <h6>
+                            <span class="position__co">Wells Fargo</span>
+                            <span class="position__pos">Android Engineer</span>
+                        </h6>
+                        <div class="position__timeframe">
+                            August 2021 - Present
+                        </div>
+                    </div>
+                    <p>
+                        In charge of the UI elements on Android Mobile First Project
+                        at the Messaging and Alerts Team. Using RxJava for Asynchronous
+                        Programming.
+                    </p>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="position">
+                    <div class="position__header">
+                        <h6>
+                            <span class="position__co">Red Lobster</span>
+                            <span class="position__pos">Sr. Android Developer</span>
+                        </h6>
+                        <div class="position__timeframe">
+                            August 2018 - July 2021
+                        </div>
+                    </div>
+
+                    <p>
+                        Performed Reactive Frameworks in conjunction with Kotlin
+                        Coroutines for the management of Alerts and Services in the
+                        Background.
+                    </p>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="position">
+                    <div class="position__header">
+                        <h6>
+                            <span class="position__co">Macy's</span>
+                            <span class="position__pos">Sr. Android Developer</span>
+                        </h6>
+                        <div class="position__timeframe">
+                            April 2016 - August 2018
+                        </div>
+                    </div>
+
+                    <p>
+                        Performed Material Design for the customization of the Views in the
+                        application. Implemented Retrofit2 for the API calling and consuming
+                        data from the network.
+                    </p>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="position">
+                    <div class="position__header">
+                        <h6>
+                            <span class="position__co">HanesBrands</span>
+                            <span class="position__pos">Android Developer</span>
+                        </h6>
+                        <div class="position__timeframe">
+                            June 2015 - February 2016
+                        </div>
+                    </div>
+                    <p>
+                        Performed the implementation of UI with XML files in the Android
+                        Layouts. Also, integrated Recycler View into the display grid
+                        layouts.
+                    </p>
+                </div>
+            </div> <!-- end column -->
+        </div> <!-- work positions -->
+    </div> <!-- end s-about__section -->
+    <div class="scroller-scroll">
+        <a href='#skillz' class="scroll-link smoothscroll">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+        </a>
+    </div> <!-- end hero-scroll -->
+</section> <!-- end s-about -->
+
+
+<!-- Skills -->
+<section id="skillz" class="s-services target-section h-dark-bg">
+
+    <div class="work-positionz s-services__content">
+
+        <div class="vert-line"></div>
+
+        <div class="column large-6 s-services__leftcol">
+            <div class="section-intro" data-num="02" data-aos="fade-up">
+                <h3 class="subhead">Skills</h3>
+
+                <h1 class="display-1">
+                    I put my heart into the
+                    App Crafting.
+                </h1>
+            </div>
+
+            <p class="lead" data-aos="fade-up">
+                Some of the Frameworks I'm proficient
+                with and I have utilized in my Android
+                and Web Development Career.
+            </p>
+        </div> <!-- end  s-services--leftcol -->
+
+        <div class="column large-6">
+            <ul class="services-list" data-aos="fade-up">
+                <li class="services-list__item is-active">
+                    <div class="services-list__item-header">
+                        <h5>JetPack Library</h5>
+                    </div>
+                </li> <!-- skills-list__item -->
+                <li class="services-list__item">
+                    <div class="services-list__item-header">
+                        <h5>Recycler View</h5>
+                    </div>
+                </li> <!-- skills-list__item -->
+                <li class="services-list__item">
+                    <div class="services-list__item-header">
+                        <h5>Material Design</h5>
+                    </div>
+                </li> <!-- services-list__item -->
+                <li class="services-list__item">
+                    <div class="services-list__item-header">
+                        <h5>Retrofit2</h5>
+                    </div>
+                </li> <!-- services-list__item -->
+                <li class="services-list__item">
+                    <div class="services-list__item-header">
+                        <h5>WorkManagement</h5>
+                    </div>
+                </li> <!-- services-list__item -->
+                <li class="services-list__item">
+                    <div class="services-list__item-header">
+                        <h5>SQLite</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="scroller-scroll">
+        <a href='#portfolio' class="scroll-link smoothscroll">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+        </a>
+    </div> <!-- end hero-scroll -->
+</section> <!-- end s-services -->
+
+
+<!-- portfolio -->
+<section id="portfolio" class="s-portfolio target-section">
+
+    <div class="work-positionz s-portfolio__header">
+        <div class="column large-6 medium-8 tab-full">
+            <div class="section-intro" data-num="03" data-aos="fade-up">
+                <h3 class="subhead">Portfolio</h3>
+                <h1 class="display-1">
+                    Android Apps I have Developed.
+                </h1>
+            </div>
+        </div>
+    </div> <!-- s-porfolio__header -->
+
+    <div class="work-positionz s-porfolio__list block-large-1-2 block-tab-full collapse">
+
+        <div class="column" data-aos="fade-up">
+            <div class="folio-item">
+                <div class="folio-item__thumb">
+                    <!--INNER PICTURE  TO DO-->
+                    <a class="folio-item__thumb-link" href="images/greene.png" title="Green Flag" style="height: 700px; width: 700px;">
+                        <img src="images/greene.png"
+                             srcset="images/greene.png 1x, images/greene.png 1x" alt="">
+                    </a>
+                </div>
+                <div class="folio-item__info">
+                    <div class="folio-item__cat">Branding</div>
+                    <h4 class="folio-item__title">Car Insurance App</h4>
+                </div>
+                <a href="https://github.com/laurocervantes/AssignmentOne" title="Link" class="folio-item__project-link">Project GitHub Link</a>
+            </div>
+        </div> <!-- end column -->
+        <div class="column" data-aos="fade-up">
+            <div class="folio-item">
+                <div class="folio-item__thumb">
+                    <a class="folio-item__thumb-link" href="images/mac2.jpeg" title="MacOS" style="height: 700px; width: 700px;">
+                        <img src="images/mac2.jpeg"
+                             srcset="images/mac2.jpeg 2x, images/mac2.jpeg 3x" alt="">
+                    </a>
+                </div>
+                <div class="folio-item__info">
+                    <div class="folio-item__cat">Frontend Design</div>
+                    <h4 class="folio-item__title">MacOS for Material Design</h4>
+                </div>
+            </div>
+        </div> <!-- end column -->
+        <div class="column" data-aos="fade-up">
+            <div class="folio-item">
+                <div class="folio-item__thumb">
+                    <a class="folio-item__thumb-link" href="images/mac.jpeg" Title="App Crafting" style="height: 700px; width: 700px;">
+                        <img src="images/mac.jpeg"
+                             srcset="images/mac.jpeg 1x, images/mac.jpeg 3x" alt="">
+                    </a>
+                </div>
+                <div class="folio-item__info">
+                    <div class="folio-item__cat">Lauro Cervantes</div>
+                    <h4 class="folio-item__title">App Crafting</h4>
+                </div>
+            </div>
+        </div> <!-- end column -->
+        <div class="column" data-aos="fade-up">
+            <div class="folio-item">
+                <div class="folio-item__thumb">
+                    <a class="folio-item__thumb-link" href="images/email.png" title="Sand Dunes" style="width: 700px; height: 700px">
+                        <img src="images/email.png"
+                             srcset="images/email.png 1x, images/email.png 2x" alt="">
+                    </a>
+                </div>
+                <div class="folio-item__info">
+                    <div class="folio-item__cat">Frontend App</div>
+                    <h4 class="folio-item__title">Email Client Demo</h4>
+                </div>
+                <a href="https://github.com/laurocervantes/Assigment2" title="Link" class="folio-item__project-link">Project GitHub Link</a>
+            </div>
+        </div> <!-- end column -->
+    </div> <!-- folio-list -->
+
+</section> <!-- end portfolio -->
+
+
+<section id="appIntegration" class="s-testimonials">
+    <!-- APP VUE INTEGRATION - API CALLS
+    ================================================== -->
+    <div class="s-cta">
+        <div class="work-positionz">
+            <div class="column large-full">
+                <h1 class="section-desc" data-aos="fade-up">
+                    Are you feeling fun?
+                </h1>
+                <div id="app"></div>
+            </div>
+        </div>
+    </div> <!-- end s-cta -->
+
+</section>
+
+
+<!-- footer -->
+<footer class="s-footer h-dark-bg" id="footerIn">
+
+    <div class="right-vert-line"></div>
+
+    <div class="work-positionz s-footer__main">
+        <div class="column large-6">
+            <div class="section-intro" data-aos="fade-up">
+                <h3 class="subhead">How to Contact Me</h3>
+
+                <h1 class="display-1">
+                    For any inquires and further communication,
+                    Shoot me a message below.
+                </h1>
+            </div>
+
+            <div class="footer-email-us">
+                <a href="contact.html" class="btn btn--primary h-full-width">CONTACT ME</a>
+            </div>
+        </div>
+
+        <div class="column large-5">
+            <div class="footer-contacts">
+                <div class="footer-contact-block" data-aos="fade-up">
+                    <h5 class="footer-contact-block__header">
+                        Email:
+                    </h5>
+                    <p class="footer-contact-block__content">
+                        <a href="mailto:contact@laurocervantes.us">contact@laurocervantes.us</a>
+                    </p>
+                </div> <!-- end footer-contact-block -->
+                <div class="footer-contact-block" data-aos="fade-up">
+                    <h5 class="footer-contact-block__header">
+                        Phone:
+                    </h5>
+                    <p class="footer-contact-block__content">
+                        <a href="tel:+14084493556">(408)449-3556</a>
+                    </p>
+                </div> <!-- end footer-contact-block -->
+                <br>
+                <div class="footer-contact-block" data-aos="fade-up">
+                    <h5 class="footer-contact-block__header">
+                        Social:
+                    </h5>
+                    <ul class="footer-contact-block__list">
+                        <li><a href="https://www.instagram.com/laurocervantes">Instagram</a></li>
+                        <li><a href="https://github.com/laurocervantes">GitHub</a></li>
+                    </ul>
+                </div> <!-- end footer-contact-block -->
+            </div>
+        </div>
+        <div class="scroller-scroll">
+            <h4 id="gobacktop">Go back to Top</h4>
+            <a href="#firstSection" class="scroll-link smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+            </a>
+    </div> <!-- end s-footer__main -->
+
+    <div class="work-positionz s-footer__bottom">
+        <div class="column large-full ss-copyright">
+            <span>© Copyright Lauro Cervantes 2021</span>
+        </div> <!-- end ss-copyright -->
+    </div> <!-- end s-footer__bottom -->
+</footer> <!-- end s-footer -->
+
+<!-- Scripts Section -->
+<script src="scripts/script.js"></script>
+</body>
 </html>

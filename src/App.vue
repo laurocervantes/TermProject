@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ChuckNorris />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChuckNorris from "@/components/ChuckNorris";
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    ChuckNorris
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.next{
+  background-color: #f9861a;
+  border-radius: 20em;
+  color: white;
+  border-color: #f9861a;
 }
 </style>
