@@ -30,6 +30,8 @@ export default {
 .next{
   background-color: #f9861a;
   border-radius: 20em;
+  align-content: center;
+  text-align: center;
   color: white;
   border-color: #f9861a;
 }
