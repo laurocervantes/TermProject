@@ -2,7 +2,8 @@
   <div>
     <h1 @mouseover="titleChuck=discretion" @mouseleave="titleChuck=backState">{{titleChuck}}</h1>
     <button class="next" v-on:click="getData">Fetch!</button>
-    <div>{{chuckNorriJoke.value}}</div>
+    <div id="joke">{{chuckNorriJoke.value}}</div>
+    <p>&nbsp;</p>
   </div>
 </template>
 
@@ -33,5 +34,10 @@ export default {
   border-radius: 20em;
   color: white;
   border-color: #f9861a;
+}
+
+#joke {
+  margin-bottom: 1em;
+;
 }
 </style>
