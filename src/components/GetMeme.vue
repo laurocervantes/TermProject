@@ -34,6 +34,7 @@ export default {
   text-align: center;
   color: white;
   border-color: #f9861a;
+  margin-bottom: 5px;
 }
 
 #img {
