@@ -2,7 +2,7 @@
   <div>
     <h1>{{titleMeme}}</h1>
     <button class="next" @click="fetchMeme">{{btnTxt}}</button>
-    <img id='img' :src="meme" alt="" style="width: 400px; height: 500px">
+    <img id='img' :src="meme" alt="" style="width: 500px; height: 600px">
   </div>
 </template>
 
