@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <ChuckNorris />
+    <GetMeme />
   </div>
 </template>
 
 <script>
 import ChuckNorris from "@/components/ChuckNorris";
+import GetMeme from "@/components/GetMeme";
 
 export default {
   name: 'app',
   components: {
+    GetMeme,
     ChuckNorris
   }
 }
