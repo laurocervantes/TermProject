@@ -2,7 +2,7 @@
   <div>
     <h1>{{titleMeme}}</h1>
     <button class="next" @click="fetchMeme">{{btnTxt}}</button>
-    <img :src="meme" alt="get a meme">
+    <img id='img' :src="meme" alt="" style="width: 400px; height: 500px">
   </div>
 </template>
 
@@ -32,5 +32,11 @@ export default {
   border-radius: 20em;
   color: white;
   border-color: #f9861a;
+}
+
+#img {
+  border-radius: 30em;
+  border-style: dot-dash;
+  border-color: rgba(238, 175, 115, 0.99);
 }
 </style>

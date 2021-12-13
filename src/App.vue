@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>{{appTitle}}</h1>
     <ChuckNorris />
     <GetMeme />
   </div>
@@ -14,6 +15,11 @@ export default {
   components: {
     GetMeme,
     ChuckNorris
+  },
+  data () {
+    return {
+      appTitle: "ARE YOU FEELING LIKE FUN? 😇"
+    }
   }
 }
 </script>
