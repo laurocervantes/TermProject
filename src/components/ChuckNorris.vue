@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 @mouseover="titleChuck=discretion">{{titleChuck}}</h1>
+    <h1 @mouseover="titleChuck=discretion" @mouseleave="titleChuck=backState">{{titleChuck}}</h1>
     <button class="next" v-on:click="getData">Fetch!</button>
     <div>{{chuckNorriJoke.value}}</div>
   </div>
@@ -13,7 +13,8 @@ export default {
     return {
       chuckNorriJoke: {},
       titleChuck: "Get a Chuck Norris Fact!",
-      discretion: '- * DISCRETION ADVISED * -'
+      discretion: '- * DISCRETION ADVISED * -',
+      backState: "Get a Chuck Norris Fact!"
     };
   },
   methods: {
