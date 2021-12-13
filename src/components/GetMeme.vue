@@ -36,7 +36,7 @@ export default {
 
 #img {
   border-radius: 30em;
-  border-style: dot-dash;
-  border-color: rgba(238, 175, 115, 0.99);
+  border-style: dotted;
+  border-color: rgba(241, 139, 41, 0.99);
 }
 </style>
