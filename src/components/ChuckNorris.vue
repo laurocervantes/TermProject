@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Get a Chuck Norris Fact!</h1>
+    <h1>{{titleChuck}}</h1>
     <button class="next" v-on:click="getData">Fetch!</button>
     <div>{{chuckNorriJoke.value}}</div>
   </div>
@@ -11,7 +11,8 @@ export default {
   name: "ChuckNorris",
   data() {
     return {
-      chuckNorriJoke: {}
+      chuckNorriJoke: {},
+      titleChuck: "Get a Chuck Norris Fact!"
     };
   },
   methods: {
