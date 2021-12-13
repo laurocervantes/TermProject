@@ -1,7 +1,8 @@
 <template>
   <div>
+    <p>&nbsp;</p>
     <h1 id="memetitle">{{titleMeme}}</h1>
-    <button class="next" @click="fetchMeme">{{btnTxt}}</button>
+    <button class="btnmeme" @click="fetchMeme">{{btnTxt}}</button>
     <p>&nbsp;</p>
     <img id='img' :src="meme" alt="" style="width: 500px; height: 600px">
   </div>
@@ -27,13 +28,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 #memetitle {
   margin-top: .5em;
 }
 
-.next{
+.btnmeme{
   background-color: #f9861a;
   border-radius: 20em;
   align-content: center;
@@ -41,6 +42,10 @@ export default {
   color: white;
   border-color: #f9861a;
   margin-bottom: 5px;
+}
+
+.btnmeme :hover {
+  background-color: rgba(11, 10, 21, 0.82);
 }
 
 #img {

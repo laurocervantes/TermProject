@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <h1>{{appTitle}}</h1>
+    <h1 id="appo">{{appTitle}}</h1>
+    <p>&nbsp;</p>
     <ChuckNorris />
     <GetMeme />
   </div>
@@ -25,10 +26,7 @@ export default {
 </script>
 
 <style>
-.next{
-  background-color: #f9861a;
-  border-radius: 20em;
-  color: white;
-  border-color: #f9861a;
+#appo {
+  margin-bottom: 2em;
 }
 </style>
