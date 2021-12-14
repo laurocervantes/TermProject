@@ -1,6 +1,3 @@
-# MET BU CS601 - LAURO CERVANTES Term Project
-
-
 
 <div align="center"> 
 
