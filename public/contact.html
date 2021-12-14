@@ -38,19 +38,24 @@
             <form id="forma">
                 <p>
                     <label>First Name</label>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="name" id="name" placeholder="Only Letters from A to Z" required minlength="2" pattern='[a-zA-Z]{2,15}'>
+                    <span class="error_firstName" aria-live="assertive"></span>
+
                 </p>
                 <p>
                     <label>Last Name</label>
-                    <input type="text" name="lastName" id="lastName">
+                    <input type="text" name="lastName" id="lastName" placeholder="Only Letters from A to Z" required minlength="2" pattern='[a-zA-Z]{2,15}'>
+                    <span class="error_lastName" aria-live="assertive"></span>
                 </p>
                 <p>
                     <label>Email</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required minlength='2'>
+                    <span class="error_email" aria-live="assertive"></span>
                 </p>
                 <p>
                     <label>Phone Number</label>
-                    <input type="text" name="phone" id="phone">
+                    <input type="text" name="phone" id="phone" placeholder="333-333-3333" required minlength="10" pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'>
+                    <span class="error_tel" aria-live="assertive"></span>
                 </p>
                 <p class="full">
                     <label>Message</label>

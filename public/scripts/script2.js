@@ -15,19 +15,19 @@ var firestore = firebase.firestore()
 const db = firestore.collection("fomData")
 
 //Get Submit Form
-let submitButton = document.getElementById('submit')
+let forma = document.getElementById('forma')
 
 //Create Event Listener To Allow Form Submission
-submitButton.addEventListener("click", (e) => {
+forma.addEventListener("submit", (e) => {
     //Prevent Default Form Submission Behavior
-    e.preventDefault()
-    //Get Form Values
+
     let firstName = document.getElementById('name').value
     let lastName = document.getElementById('lastName').value
     let email = document.getElementById('email').value
     let phone = document.getElementById('phone').value
     let message = document.getElementById('message').value
 
+    //Get Form Values
     //Save Form Data To Firebase
     db.doc().set({
         name: firstName,
@@ -41,4 +41,7 @@ submitButton.addEventListener("click", (e) => {
         console.log(error)
         alert('An Error Ocurred, Try Again')
     })
+
+
+    e.preventDefault()
 })
