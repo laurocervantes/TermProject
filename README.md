@@ -26,7 +26,10 @@ https://github.com/laurocervantes/TermProject
 <p>&nbsp;</p>
 <b>Video Presentation Link:</b>
 https://www.dropbox.com/s/ucah90w60ni3670/cs601FinalPresentation_LauroCervantes.mp4?dl=0
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<b>Netlify Deploy Link:</b>
+https://laurocervantes.netlify.app
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
