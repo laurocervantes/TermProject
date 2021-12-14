@@ -8,7 +8,7 @@
 <p>&nbsp;</p>
 
 
-## **MET BU CS 601 WEB APPLICATION DEVELOPMENT**
+## **MET BU CS 601  -  WEB APPLICATION DEVELOPMENT**
 
 
 <p>&nbsp;</p>
